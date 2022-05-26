@@ -1,1 +1,8 @@
-/*# sourceMappingURL=main.css.map */
+#base {
+  width: 100vw;
+  height: 100vh;
+  background-color: #E1D2E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
