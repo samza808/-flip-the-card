@@ -5,4 +5,74 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#base > #root {
+  width: 1020px;
+  height: 735px;
+  background: linear-gradient(180deg, #8C59F6 0%, #D284E2 100%);
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#base > #root > main {
+  width: 100%;
+  height: 94%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#base > #root > main > .grid {
+  width: 90%;
+  height: 84%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+#base > #root > main > .grid > .main-page {
+  width: 76%;
+  height: 100%;
+  background-color: #84e294;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  right: 0%;
+}
+#base > #root > main > .grid > .main-page > .play {
+  width: 520px;
+  height: 564px;
+  background-color: #D284E2;
+}
+#base > #root > main > .grid > .main-page > .object-view {
+  width: 20%;
+  height: 60%;
+  background-color: aqua;
+}
+#base > #root > main > .grid > .score {
+  width: 40%;
+  height: 40%;
+  background-color: #270fff;
+  position: relative;
+  z-index: 0;
+}
+#base > #root > main > .back-view {
+  width: 100%;
+  height: 100%;
+  background-color: #6EBEDA;
+  position: absolute;
+  z-index: 0;
+}
+#base > #root > footer {
+  width: 100%;
+  height: 6%;
+  background-color: #D7C8FE;
 }/*# sourceMappingURL=main.css.map */

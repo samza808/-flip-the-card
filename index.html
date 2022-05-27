@@ -11,39 +11,31 @@
 <body>
   
   <div id="base">
-    <div id="root"></div>
+    <div id="root">
+
+    <main>
+
+      <div class="grid">
+
+        <div class="main-page">
+          <div class="play"></div>
+          <div class="object-view"></div>
+        </div>
+        
+        <div class="score"></div>
+
+      </div>
+
+      <div class="back-view"></div>
+
+    </main>
+
+    <footer></footer>
+
+    </div>
   </div>
   
   <script>
-    
-    let boxsWidth = '50px';
-    let boxsHeight = '50px';
-
-    const base = document.getElementById('base');
-    base.style.width = '100vw';
-    base.style.height = '100vh';
-    base.style.display = 'flex';
-    base.style.justifyContent = 'center';
-    base.alignItems = 'center';
-
-
-    const root = document.getElementById('root');
-    console.dir(root);
-    root.style.width = boxsWidth * 11;
-    root.style.height = boxsHeight * 11;
-    root.style.border = '1px solid blue';
-    root.style.display = 'flex';
-    root.style.flexWrap = 'wrap';
-
-    for(let boxs = 0; boxs < 12 * 12; boxs++) {
-    creatBox = document.createElement('div');
-    creatBox.style.width = boxsWidth;
-    creatBox.style.height = boxsHeight;
-    creatBox.style.border = '1px solid red';
-
-    root.appendChild(creatBox);
-    }
-
 
   </script>
 
